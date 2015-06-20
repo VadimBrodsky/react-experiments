@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>React Badge Nested in Form Example</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+	<script src="../bower_components/react/react.js"></script>
+	<script src="../bower_components/react/JSXTransformer.js"></script>
+</head>
+<body>
+</body>
+<script type="text/jsx">
+	// Define a 'class'
+	var Badge = React.createClass({
+		render: function() {
+			return <button className="btn btn-primary" type="button">
+							{this.props.title} <span className="badge">{this.props.number}</span>
+			</button>
+		}
+	});	
+
+	var Form = React.createClass({
+		render: function() {
+			return <div>
+				<Badge title={this.props.title} number={this.props.number} />
+			</div>
+		}	
+	});
+
+	// Options object
+	var options = {
+		title: 'Inbox',
+		number: 32	
+	};
+
+	// React to render class
+	var element = React.createElement(Form, options);
+
+	// After rendering add to body	
+	React.render(element, document.body);	
+</script>
+</html>
