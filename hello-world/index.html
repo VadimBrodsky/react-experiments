@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -6,7 +6,21 @@
 	<script src="../bower_components/react/JSXTransformer.js"></script>
 </head>
 <body>
-
-
 </body>
+<script type="text/jsx">
+	// Define a 'class'
+	var HelloWorld = React.createClass({
+		render: function() {
+						return <div> 
+										Hello World
+						</div>
+		}	
+	});	
+
+	// React to render class
+	var element = React.createElement(HelloWorld);
+
+	// After rendering add to body	
+	React.render(element, document.body);	
+</script>
 </html>
