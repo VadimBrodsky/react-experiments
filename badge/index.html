@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>React Badge Example</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
 	<script src="../bower_components/react/react.js"></script>
 	<script src="../bower_components/react/JSXTransformer.js"></script>
 </head>
@@ -9,16 +10,16 @@
 </body>
 <script type="text/jsx">
 	// Define a 'class'
-	var HelloWorld = React.createClass({
+	var Badge = React.createClass({
 		render: function() {
-			return <div> 
-				Hello World!
-			</div>
-		}	
+			return <button className="btn btn-primary" type="button">
+							Messages <span className="badge">4</span>
+			</button>
+		}
 	});	
 
 	// React to render class
-	var element = React.createElement(HelloWorld);
+	var element = React.createElement(Badge);
 
 	// After rendering add to body	
 	React.render(element, document.body);	
