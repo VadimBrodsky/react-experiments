@@ -13,13 +13,19 @@
 	var Badge = React.createClass({
 		render: function() {
 			return <button className="btn btn-primary" type="button">
-							Messages <span className="badge">4</span>
+							{this.props.title} <span className="badge">{this.props.number}</span>
 			</button>
 		}
 	});	
 
+	// Options object
+	var options = {
+		title: 'Sent',
+		number: 12	
+	};
+
 	// React to render class
-	var element = React.createElement(Badge);
+	var element = React.createElement(Badge, options);
 
 	// After rendering add to body	
 	React.render(element, document.body);	
