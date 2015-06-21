@@ -1,7 +1,10 @@
+var React = require('react');
+var ThumbnailList = require('./thumbnail-list');
+
 var options = {
   thumbnailData: [{
     title: 'Show Courses',
-    number: 8,
+    number: 10,
     header: 'Learn React',
     description: 'React is a fantastic new front end librabry for rendering',
     imageUrl:
