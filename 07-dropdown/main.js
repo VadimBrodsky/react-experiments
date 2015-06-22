@@ -20153,7 +20153,10 @@ var ListItem = require('./list-item');
 
 module.exports = React.createClass({displayName: "exports",
 	handleClick: function() {
-		alert("hello from the dropdown");
+		this.setState({open: !this.state.open});
+	},
+	getInitialState: function() {
+		return { open: false }
 	},
 	render: function() {
 		var list = this.props.items.map(function(item){
@@ -20167,7 +20170,7 @@ module.exports = React.createClass({displayName: "exports",
 				subTitleClassName: "caret", 
 				whenClicked: this.handleClick}
 			), 
-			React.createElement("ul", null, 
+			React.createElement("ul", {className: "dropdown-menu " + (this.state.open ? "show" : "") }, 
 				list
 			)
 		)
