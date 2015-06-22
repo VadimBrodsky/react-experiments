@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -25,7 +25,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/focusNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/focusNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015 Facebook, Inc.
  * All rights reserved.
@@ -520,7 +520,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./FallbackCompositionState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/FallbackCompositionState.js","./SyntheticCompositionEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js","./SyntheticInputEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./FallbackCompositionState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/FallbackCompositionState.js","./SyntheticCompositionEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js","./SyntheticInputEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -645,7 +645,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -827,7 +827,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/memoizeStringOnly.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/memoizeStringOnly.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -927,7 +927,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1309,7 +1309,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isEventSupported.js","./isTextInputElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isEventSupported.js","./isTextInputElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1334,7 +1334,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1472,7 +1472,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./setTextContent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setTextContent.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./setTextContent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setTextContent.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1771,7 +1771,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1963,7 +1963,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./quoteAttributeValueForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./quoteAttributeValueForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2150,7 +2150,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js","./getMarkupWrap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js","./getMarkupWrap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2189,7 +2189,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2329,7 +2329,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2401,7 +2401,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2491,7 +2491,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2769,7 +2769,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3049,7 +3049,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3270,7 +3270,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3412,7 +3412,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/forEachAccumulated.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/forEachAccumulated.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3456,7 +3456,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/FallbackCompositionState.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/FallbackCompositionState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3547,7 +3547,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
 
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./getTextContentAccessor":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./getTextContentAccessor":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3758,7 +3758,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3914,7 +3914,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypes.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypes.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -3971,7 +3971,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4029,7 +4029,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -4078,7 +4078,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4194,7 +4194,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4346,7 +4346,7 @@ React.version = '0.13.3';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildren.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponent.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOM.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js","./ReactDefaultInjection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactPropTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactServerRendering":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRendering.js","./findDOMNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/findDOMNode.js","./onlyChild":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/onlyChild.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildren.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponent.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOM.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js","./ReactDefaultInjection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactPropTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactServerRendering":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRendering.js","./findDOMNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/findDOMNode.js","./onlyChild":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/onlyChild.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4377,7 +4377,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 
-},{"./findDOMNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/findDOMNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./findDOMNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/findDOMNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4730,7 +4730,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginRegistry.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ViewportMetrics.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isEventSupported.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildReconciler.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginRegistry.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ViewportMetrics.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isEventSupported.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildReconciler.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -4857,7 +4857,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 
-},{"./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js","./flattenChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/flattenChildren.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildren.js":[function(require,module,exports){
+},{"./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js","./flattenChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/flattenChildren.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -5010,7 +5010,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js","./traverseAllChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js","./traverseAllChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -5956,7 +5956,7 @@ var ReactClass = {
 module.exports = ReactClass;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponent.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactErrorUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactErrorUtils.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponent.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactErrorUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactErrorUtils.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -6110,7 +6110,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -6157,7 +6157,7 @@ var ReactComponentBrowserEnvironment = {
 
 module.exports = ReactComponentBrowserEnvironment;
 
-},{"./ReactDOMIDOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -6218,7 +6218,7 @@ var ReactComponentEnvironment = {
 module.exports = ReactComponentEnvironment;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7131,7 +7131,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactContext.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7209,7 +7209,7 @@ var ReactContext = {
 module.exports = ReactContext;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7243,7 +7243,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7422,7 +7422,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./mapObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/mapObject.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./mapObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/mapObject.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7486,7 +7486,7 @@ var ReactDOMButton = ReactClass.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7996,7 +7996,7 @@ ReactDOMComponent.injection = {
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactMultiChild":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChild.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isEventSupported.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactMultiChild":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChild.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isEventSupported.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8045,7 +8045,7 @@ var ReactDOMForm = ReactClass.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8213,7 +8213,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setInnerHTML.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIframe.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setInnerHTML.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIframe.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8258,7 +8258,7 @@ var ReactDOMIframe = ReactClass.createClass({
 
 module.exports = ReactDOMIframe;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8304,7 +8304,7 @@ var ReactDOMImg = ReactClass.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8481,7 +8481,7 @@ var ReactDOMInput = ReactClass.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8533,7 +8533,7 @@ var ReactDOMOption = ReactClass.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8711,7 +8711,7 @@ var ReactDOMSelect = ReactClass.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8924,7 +8924,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9041,7 +9041,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 
-},{"./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9181,7 +9181,7 @@ var ReactDOMTextarea = ReactClass.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9254,7 +9254,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9413,7 +9413,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js","./DefaultEventPluginOrder":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMForm.js","./ReactDOMIDOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js","./ReactDOMIframe":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIframe.js","./ReactDOMImg":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelect.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js","./ReactDOMTextarea":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactEventListener":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventListener.js","./ReactInjection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactReconcileTransaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createFullPageComponent.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js","./DefaultEventPluginOrder":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMForm.js","./ReactDOMIDOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js","./ReactDOMIframe":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIframe.js","./ReactDOMImg":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelect.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js","./ReactDOMTextarea":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactEventListener":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventListener.js","./ReactInjection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactReconcileTransaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createFullPageComponent.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9679,7 +9679,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./performanceNow":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performanceNow.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./performanceNow":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performanceNow.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9885,7 +9885,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10193,7 +10193,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10658,7 +10658,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./getIteratorFn":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js","./getIteratorFn":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10753,7 +10753,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10785,7 +10785,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10835,7 +10835,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11018,7 +11018,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventListener.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js":[function(require,module,exports){
+},{"./EventListener":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventListener.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -11203,7 +11203,7 @@ var ReactFragment = {
 module.exports = ReactFragment;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInjection.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11245,7 +11245,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRootIndex.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRootIndex.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11380,7 +11380,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelection.js","./containsNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/containsNode.js","./focusNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/focusNode.js","./getActiveElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getActiveElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelection.js","./containsNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/containsNode.js","./focusNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/focusNode.js","./getActiveElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getActiveElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -11716,7 +11716,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRootIndex.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRootIndex.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11765,7 +11765,7 @@ var ReactInstanceMap = {
 
 module.exports = ReactInstanceMap;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactLifeCycle.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactLifeCycle.js":[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -11802,7 +11802,7 @@ var ReactLifeCycle = {
 
 module.exports = ReactLifeCycle;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11850,7 +11850,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/adler32.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/adler32.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -12741,7 +12741,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./containsNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/containsNode.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js","./getReactRootElementInContainer":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setInnerHTML.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./containsNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/containsNode.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js","./getReactRootElementInContainer":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setInnerHTML.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13171,7 +13171,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactChildReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildReconciler.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactChildReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildReconciler.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13204,7 +13204,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -13311,7 +13311,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13423,7 +13423,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13527,7 +13527,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13555,7 +13555,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13579,7 +13579,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13928,7 +13928,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13984,7 +13984,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14160,7 +14160,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -14284,7 +14284,7 @@ var ReactReconciler = {
 module.exports = ReactReconciler;
 
 }).call(this,require('_process'))
-},{"./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactRef":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRef.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRef.js":[function(require,module,exports){
+},{"./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js","./ReactRef":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRef.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRef.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14355,7 +14355,7 @@ ReactRef.detachRefs = function(instance, element) {
 
 module.exports = ReactRef;
 
-},{"./ReactOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactOwner.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./ReactOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactOwner.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14386,7 +14386,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -14468,7 +14468,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -14581,7 +14581,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -14880,7 +14880,7 @@ var ReactUpdateQueue = {
 module.exports = ReactUpdateQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactLifeCycle.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15162,7 +15162,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15256,7 +15256,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15451,7 +15451,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js","./ReactInputSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./getActiveElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getActiveElement.js","./isTextInputElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js","./shallowEqual":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shallowEqual.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js","./ReactInputSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./getActiveElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getActiveElement.js","./isTextInputElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js","./shallowEqual":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shallowEqual.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15482,7 +15482,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15910,7 +15910,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventCharCode.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js","./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginUtils.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventCharCode.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15955,7 +15955,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
 
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16000,7 +16000,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticCompositionEvent;
 
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16039,7 +16039,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16205,7 +16205,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16244,7 +16244,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16290,7 +16290,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticInputEvent;
 
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16377,7 +16377,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventCharCode.js","./getEventKey":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventKey.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventCharCode.js","./getEventKey":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventKey.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16458,7 +16458,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ViewportMetrics.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ViewportMetrics.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16506,7 +16506,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16568,7 +16568,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16629,7 +16629,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -16870,7 +16870,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16899,7 +16899,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/accumulateInto.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -16965,7 +16965,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16999,7 +16999,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelize.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17031,7 +17031,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -17073,7 +17073,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelize.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelize.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17117,7 +17117,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createArrayFromMixed.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createArrayFromMixed.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17203,7 +17203,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 
-},{"./toArray":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/toArray.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/toArray.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17265,7 +17265,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17355,7 +17355,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./createArrayFromMixed":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createArrayFromMixed.js","./getMarkupWrap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./createArrayFromMixed":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createArrayFromMixed.js","./getMarkupWrap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17413,7 +17413,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSProperty.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSProperty.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17447,7 +17447,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17471,7 +17471,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17511,7 +17511,7 @@ function escapeTextContentForBrowser(text) {
 
 module.exports = escapeTextContentForBrowser;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/findDOMNode.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/findDOMNode.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17584,7 +17584,7 @@ function findDOMNode(componentOrElement) {
 module.exports = findDOMNode;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./isNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isNode.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/flattenChildren.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./isNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isNode.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17642,7 +17642,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./traverseAllChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/focusNode.js":[function(require,module,exports){
+},{"./traverseAllChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -17671,7 +17671,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17702,7 +17702,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17731,7 +17731,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17783,7 +17783,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17888,7 +17888,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventCharCode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventCharCode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17935,7 +17935,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17966,7 +17966,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getIteratorFn.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getIteratorFn.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18010,7 +18010,7 @@ function getIteratorFn(maybeIterable) {
 
 module.exports = getIteratorFn;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18129,7 +18129,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18204,7 +18204,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18239,7 +18239,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18276,7 +18276,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18316,7 +18316,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18349,7 +18349,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18390,7 +18390,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenate.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenate.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18528,7 +18528,7 @@ function instantiateReactComponent(node, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactCompositeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js","./ReactCompositeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18585,7 +18585,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18650,7 +18650,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18677,7 +18677,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18720,7 +18720,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18745,7 +18745,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js":[function(require,module,exports){
+},{"./isNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18800,7 +18800,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18836,7 +18836,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/mapObject.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18889,7 +18889,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18922,7 +18922,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/onlyChild.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18962,7 +18962,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18990,7 +18990,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19018,7 +19018,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performance.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js":[function(require,module,exports){
+},{"./performance":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performance.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19046,7 +19046,7 @@ function quoteAttributeValueForBrowser(value) {
 
 module.exports = quoteAttributeValueForBrowser;
 
-},{"./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19135,7 +19135,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setTextContent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setTextContent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19177,7 +19177,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setTextContent;
 
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setInnerHTML.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setInnerHTML.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19221,7 +19221,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19325,7 +19325,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 }).call(this,require('_process'))
-},{"./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/toArray.js":[function(require,module,exports){
+},{"./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -19397,7 +19397,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19650,7 +19650,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./getIteratorFn":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js","./getIteratorFn":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -19713,10 +19713,10 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/React.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"./lib/React":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/React.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -19808,317 +19808,317 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/AutoFocusMixin.js"][0].apply(exports,arguments)
-},{"./focusNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/focusNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./FallbackCompositionState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/FallbackCompositionState.js","./SyntheticCompositionEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticCompositionEvent.js","./SyntheticInputEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSProperty.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js"][0].apply(exports,arguments)
-},{"./CSSProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/CallbackQueue.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js"][0].apply(exports,arguments)
-},{"./Danger":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./setTextContent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setTextContent.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMProperty.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./quoteAttributeValueForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/quoteAttributeValueForBrowser.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Danger.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Danger.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js"][0].apply(exports,arguments)
-},{"./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventConstants.js"][0].apply(exports,arguments)
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventListener.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventListener.js"][0].apply(exports,arguments)
-},{"./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginHub.js"][0].apply(exports,arguments)
-},{"./EventPluginRegistry":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginRegistry.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPluginUtils.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/EventPropagators.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/FallbackCompositionState.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/FallbackCompositionState.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./getTextContentAccessor":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LinkedValueUtils.js"][0].apply(exports,arguments)
-},{"./ReactPropTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js"][0].apply(exports,arguments)
-},{"./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Object.assign.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/PooledClass.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/React.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/React.js"][0].apply(exports,arguments)
-},{"./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactChildren.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOM.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDefaultInjection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactServerRendering":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactServerRendering.js","./findDOMNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/findDOMNode.js","./onlyChild":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/onlyChild.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js"][0].apply(exports,arguments)
-},{"./findDOMNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/findDOMNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isEventSupported.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactChildReconciler.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildReconciler.js"][0].apply(exports,arguments)
-},{"./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js","./flattenChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactChildren.js"][0].apply(exports,arguments)
-},{"./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactFragment.js","./traverseAllChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactClass.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponent.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactErrorUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactErrorUtils.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponent.js"][0].apply(exports,arguments)
-},{"./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js"][0].apply(exports,arguments)
-},{"./ReactDOMIDOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyObject.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactContext.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyObject.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOM.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./mapObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/mapObject.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMButton.js"][0].apply(exports,arguments)
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMComponent.js"][0].apply(exports,arguments)
-},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMForm.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js"][0].apply(exports,arguments)
-},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setInnerHTML.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMIframe.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMIframe.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMImg.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMInput.js"][0].apply(exports,arguments)
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMOption.js"][0].apply(exports,arguments)
-},{"./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelect.js"][0].apply(exports,arguments)
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMSelection.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js"][0].apply(exports,arguments)
-},{"./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js"][0].apply(exports,arguments)
-},{"./AutoFocusMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js"][0].apply(exports,arguments)
-},{"./BeforeInputEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ClientReactRootIndex.js","./DefaultEventPluginOrder":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMForm.js","./ReactDOMIDOperations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js","./ReactDOMIframe":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMIframe.js","./ReactDOMImg":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDOMTextarea":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultPerf.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactEventListener":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactReconcileTransaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/performanceNow.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElement.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactContext":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactElementValidator.js"][0].apply(exports,arguments)
-},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./getIteratorFn":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactErrorUtils.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js"][0].apply(exports,arguments)
-},{"./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactEventListener.js"][0].apply(exports,arguments)
-},{"./EventListener":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactFragment.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactFragment.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInjection.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInputSelection.js"][0].apply(exports,arguments)
-},{"./ReactDOMSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/containsNode.js","./focusNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getActiveElement.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js"][0].apply(exports,arguments)
-},{"./ReactRootIndex":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactInstanceMap.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactLifeCycle.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactLifeCycle.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js"][0].apply(exports,arguments)
-},{"./adler32":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/adler32.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMount.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./containsNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/containsNode.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyObject.js","./getReactRootElementInContainer":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setInnerHTML.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChild.js"][0].apply(exports,arguments)
-},{"./ReactChildReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactChildReconciler.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js"][0].apply(exports,arguments)
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactNativeComponent.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactOwner.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPerf.js"][0].apply(exports,arguments)
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js"][0].apply(exports,arguments)
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js"][0].apply(exports,arguments)
-},{"./keyMirror":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPropTypes.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js"][0].apply(exports,arguments)
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Transaction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactReconciler.js"][0].apply(exports,arguments)
-},{"./ReactElementValidator":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactRef":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactRef.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactRef.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRef.js"][0].apply(exports,arguments)
-},{"./ReactOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactOwner.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactRootIndex.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRendering.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactServerRenderingTransaction.js","./emptyObject":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyObject.js","./instantiateReactComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js"][0].apply(exports,arguments)
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactUpdates":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ReactUpdates.js"][0].apply(exports,arguments)
-},{"./CallbackQueue":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactReconciler.js","./Transaction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Transaction.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js"][0].apply(exports,arguments)
-},{"./DOMProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/DOMProperty.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SelectEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shallowEqual.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js"][0].apply(exports,arguments)
-},{"./EventConstants":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./keyOf":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticEvent.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js"][0].apply(exports,arguments)
-},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Transaction.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/Transaction.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/ViewportMetrics.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/accumulateInto.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/adler32.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/adler32.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/camelize.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelize.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/camelizeStyleName.js"][0].apply(exports,arguments)
-},{"./camelize":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/camelize.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/containsNode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/containsNode.js"][0].apply(exports,arguments)
-},{"./isTextNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isTextNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createArrayFromMixed.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createArrayFromMixed.js"][0].apply(exports,arguments)
-},{"./toArray":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/toArray.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createFullPageComponent.js"][0].apply(exports,arguments)
-},{"./ReactClass":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFromMixed":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/createArrayFromMixed.js","./getMarkupWrap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/dangerousStyleValue.js"][0].apply(exports,arguments)
-},{"./CSSProperty":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/CSSProperty.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyFunction.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/emptyObject.js"][0].apply(exports,arguments)
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/findDOMNode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/findDOMNode.js"][0].apply(exports,arguments)
-},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactInstanceMap":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactMount":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactMount.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./isNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isNode.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/flattenChildren.js"][0].apply(exports,arguments)
-},{"./traverseAllChildren":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/focusNode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/focusNode.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/forEachAccumulated.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getActiveElement.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventCharCode.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventKey.js"][0].apply(exports,arguments)
-},{"./getEventCharCode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventCharCode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventModifierState.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getEventTarget.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getIteratorFn.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getIteratorFn.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getMarkupWrap.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenate.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/hyphenateStyleName.js"][0].apply(exports,arguments)
-},{"./hyphenate":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/hyphenate.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/instantiateReactComponent.js"][0].apply(exports,arguments)
-},{"./Object.assign":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactCompositeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/invariant.js"][0].apply(exports,arguments)
-},{"_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isEventSupported.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isNode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isNode.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextInputElement.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/isTextNode.js"][0].apply(exports,arguments)
-},{"./isNode":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/isNode.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyMirror.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/keyOf.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/keyOf.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/mapObject.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/mapObject.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/memoizeStringOnly.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/onlyChild.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/performance.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performance.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/performanceNow.js"][0].apply(exports,arguments)
-},{"./performance":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/performance.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/quoteAttributeValueForBrowser.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js"][0].apply(exports,arguments)
-},{"./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setInnerHTML.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setTextContent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/setTextContent.js"][0].apply(exports,arguments)
-},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js","./setInnerHTML":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/setInnerHTML.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shallowEqual.js"][0].apply(exports,arguments)
-},{}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js"][0].apply(exports,arguments)
-},{"./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/toArray.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/toArray.js"][0].apply(exports,arguments)
-},{"./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/traverseAllChildren.js"][0].apply(exports,arguments)
-},{"./ReactElement":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./getIteratorFn":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/warning.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/lib/warning.js"][0].apply(exports,arguments)
-},{"./emptyFunction":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/react.js":[function(require,module,exports){
-arguments[4]["/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/react.js"][0].apply(exports,arguments)
-},{"./lib/React":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/lib/React.js"}],"/Users/Vadim/Git/react-course/07-dropdown/src/app.jsx":[function(require,module,exports){
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/AutoFocusMixin.js"][0].apply(exports,arguments)
+},{"./focusNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/focusNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/BeforeInputEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./FallbackCompositionState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/FallbackCompositionState.js","./SyntheticCompositionEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticCompositionEvent.js","./SyntheticInputEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSProperty.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CSSPropertyOperations.js"][0].apply(exports,arguments)
+},{"./CSSProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/CallbackQueue.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ChangeEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ClientReactRootIndex.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMChildrenOperations.js"][0].apply(exports,arguments)
+},{"./Danger":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./setTextContent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setTextContent.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMProperty.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DOMPropertyOperations.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./quoteAttributeValueForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/quoteAttributeValueForBrowser.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Danger.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Danger.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/DefaultEventPluginOrder.js"][0].apply(exports,arguments)
+},{"./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EnterLeaveEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventConstants.js"][0].apply(exports,arguments)
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventListener.js"][0].apply(exports,arguments)
+},{"./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginHub.js"][0].apply(exports,arguments)
+},{"./EventPluginRegistry":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginRegistry.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPluginUtils.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/EventPropagators.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ExecutionEnvironment.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/FallbackCompositionState.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/FallbackCompositionState.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./getTextContentAccessor":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/HTMLDOMPropertyConfig.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LinkedValueUtils.js"][0].apply(exports,arguments)
+},{"./ReactPropTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/LocalEventTrapMixin.js"][0].apply(exports,arguments)
+},{"./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/MobileSafariClickEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Object.assign.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/PooledClass.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/React.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/React.js"][0].apply(exports,arguments)
+},{"./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactChildren.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOM.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDefaultInjection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactServerRendering":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactServerRendering.js","./findDOMNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/findDOMNode.js","./onlyChild":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/onlyChild.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserComponentMixin.js"][0].apply(exports,arguments)
+},{"./findDOMNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/findDOMNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactBrowserEventEmitter.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isEventSupported.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactChildReconciler.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildReconciler.js"][0].apply(exports,arguments)
+},{"./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js","./flattenChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactChildren.js"][0].apply(exports,arguments)
+},{"./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactFragment.js","./traverseAllChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactClass.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponent.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactErrorUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactErrorUtils.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponent.js"][0].apply(exports,arguments)
+},{"./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentBrowserEnvironment.js"][0].apply(exports,arguments)
+},{"./ReactDOMIDOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactComponentEnvironment.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCompositeComponent.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyObject.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactContext.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyObject.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactCurrentOwner.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOM.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./mapObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/mapObject.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMButton.js"][0].apply(exports,arguments)
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMComponent.js"][0].apply(exports,arguments)
+},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMForm.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIDOperations.js"][0].apply(exports,arguments)
+},{"./CSSPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setInnerHTML.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMIframe.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMIframe.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMImg.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMInput.js"][0].apply(exports,arguments)
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMOption.js"][0].apply(exports,arguments)
+},{"./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelect.js"][0].apply(exports,arguments)
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMSelection.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextComponent.js"][0].apply(exports,arguments)
+},{"./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDOMTextarea.js"][0].apply(exports,arguments)
+},{"./AutoFocusMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultBatchingStrategy.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultInjection.js"][0].apply(exports,arguments)
+},{"./BeforeInputEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ClientReactRootIndex.js","./DefaultEventPluginOrder":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponentBrowserEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMForm.js","./ReactDOMIDOperations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMIDOperations.js","./ReactDOMIframe":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMIframe.js","./ReactDOMImg":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDOMTextarea":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultPerf.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactEventListener":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactReconcileTransaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerf.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/performanceNow.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactDefaultPerfAnalysis.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElement.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactContext":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactElementValidator.js"][0].apply(exports,arguments)
+},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js","./getIteratorFn":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEmptyComponent.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactErrorUtils.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventEmitterMixin.js"][0].apply(exports,arguments)
+},{"./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactEventListener.js"][0].apply(exports,arguments)
+},{"./EventListener":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactFragment.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactFragment.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInjection.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactDOMComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInputSelection.js"][0].apply(exports,arguments)
+},{"./ReactDOMSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/containsNode.js","./focusNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getActiveElement.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceHandles.js"][0].apply(exports,arguments)
+},{"./ReactRootIndex":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactInstanceMap.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactLifeCycle.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactLifeCycle.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMarkupChecksum.js"][0].apply(exports,arguments)
+},{"./adler32":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/adler32.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMount.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js","./ReactUpdateQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./containsNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/containsNode.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyObject.js","./getReactRootElementInContainer":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setInnerHTML.js","./shouldUpdateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChild.js"][0].apply(exports,arguments)
+},{"./ReactChildReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactChildReconciler.js","./ReactComponentEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactMultiChildUpdateTypes.js"][0].apply(exports,arguments)
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactNativeComponent.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactOwner.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPerf.js"][0].apply(exports,arguments)
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocationNames.js"][0].apply(exports,arguments)
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypeLocations.js"][0].apply(exports,arguments)
+},{"./keyMirror":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPropTypes.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactPropTypeLocationNames":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPropTypeLocationNames.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactPutListenerQueue.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconcileTransaction.js"][0].apply(exports,arguments)
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Transaction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactReconciler.js"][0].apply(exports,arguments)
+},{"./ReactElementValidator":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElementValidator.js","./ReactRef":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactRef.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactRef.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRef.js"][0].apply(exports,arguments)
+},{"./ReactOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactOwner.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactRootIndex.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRendering.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactServerRenderingTransaction.js","./emptyObject":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyObject.js","./instantiateReactComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactServerRenderingTransaction.js"][0].apply(exports,arguments)
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdateQueue.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdateQueue.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactLifeCycle.js","./ReactUpdates":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ReactUpdates.js"][0].apply(exports,arguments)
+},{"./CallbackQueue":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactReconciler.js","./Transaction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Transaction.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SVGDOMPropertyConfig.js"][0].apply(exports,arguments)
+},{"./DOMProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/DOMProperty.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SelectEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shallowEqual.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ServerReactRootIndex.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SimpleEventPlugin.js"][0].apply(exports,arguments)
+},{"./EventConstants":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./keyOf":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticClipboardEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticCompositionEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticDragEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticEvent.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticFocusEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticInputEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticKeyboardEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticMouseEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticTouchEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticUIEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventModifierState.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticUIEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventTarget.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/SyntheticWheelEvent.js"][0].apply(exports,arguments)
+},{"./SyntheticMouseEvent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/Transaction.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/ViewportMetrics.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/accumulateInto.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/adler32.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/adler32.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/camelize.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelize.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/camelizeStyleName.js"][0].apply(exports,arguments)
+},{"./camelize":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/camelize.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/containsNode.js"][0].apply(exports,arguments)
+},{"./isTextNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isTextNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createArrayFromMixed.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createArrayFromMixed.js"][0].apply(exports,arguments)
+},{"./toArray":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/toArray.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createFullPageComponent.js"][0].apply(exports,arguments)
+},{"./ReactClass":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/createNodesFromMarkup.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFromMixed":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/createArrayFromMixed.js","./getMarkupWrap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/dangerousStyleValue.js"][0].apply(exports,arguments)
+},{"./CSSProperty":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/CSSProperty.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyFunction.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/emptyObject.js"][0].apply(exports,arguments)
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/escapeTextContentForBrowser.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/findDOMNode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/findDOMNode.js"][0].apply(exports,arguments)
+},{"./ReactCurrentOwner":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCurrentOwner.js","./ReactInstanceMap":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceMap.js","./ReactMount":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactMount.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./isNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isNode.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/flattenChildren.js"][0].apply(exports,arguments)
+},{"./traverseAllChildren":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/focusNode.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/forEachAccumulated.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getActiveElement.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventCharCode.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventKey.js"][0].apply(exports,arguments)
+},{"./getEventCharCode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventCharCode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventModifierState.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getEventTarget.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getIteratorFn.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getIteratorFn.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getMarkupWrap.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getNodeForCharacterOffset.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getReactRootElementInContainer.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getTextContentAccessor.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/getUnboundedScrollPosition.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenate.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/hyphenateStyleName.js"][0].apply(exports,arguments)
+},{"./hyphenate":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/hyphenate.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/instantiateReactComponent.js"][0].apply(exports,arguments)
+},{"./Object.assign":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/Object.assign.js","./ReactCompositeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactNativeComponent.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/invariant.js"][0].apply(exports,arguments)
+},{"_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isEventSupported.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isNode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isNode.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextInputElement.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/isTextNode.js"][0].apply(exports,arguments)
+},{"./isNode":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/isNode.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyMirror.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/keyOf.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/mapObject.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/memoizeStringOnly.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/onlyChild.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/performance.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performance.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/performanceNow.js"][0].apply(exports,arguments)
+},{"./performance":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/performance.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/quoteAttributeValueForBrowser.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/quoteAttributeValueForBrowser.js"][0].apply(exports,arguments)
+},{"./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setInnerHTML.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setTextContent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/setTextContent.js"][0].apply(exports,arguments)
+},{"./ExecutionEnvironment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ExecutionEnvironment.js","./escapeTextContentForBrowser":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/escapeTextContentForBrowser.js","./setInnerHTML":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/setInnerHTML.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shallowEqual.js"][0].apply(exports,arguments)
+},{}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/shouldUpdateReactComponent.js"][0].apply(exports,arguments)
+},{"./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/toArray.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/toArray.js"][0].apply(exports,arguments)
+},{"./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/traverseAllChildren.js"][0].apply(exports,arguments)
+},{"./ReactElement":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactFragment.js","./ReactInstanceHandles":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/ReactInstanceHandles.js","./getIteratorFn":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/invariant.js","./warning":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/warning.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/lib/warning.js"][0].apply(exports,arguments)
+},{"./emptyFunction":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/emptyFunction.js","_process":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/browserify/node_modules/process/browser.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/react.js":[function(require,module,exports){
+arguments[4]["/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/react.js"][0].apply(exports,arguments)
+},{"./lib/React":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/lib/React.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/src/app.jsx":[function(require,module,exports){
 var React = require('react');
 var Dropdown = require('./dropdown');
 
@@ -20134,30 +20134,38 @@ var options = {
 var element = React.createElement(Dropdown, options);
 React.render(element, document.querySelector('.container'));
 
-},{"./dropdown":"/Users/Vadim/Git/react-course/07-dropdown/src/dropdown.jsx","react":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/react.js"}],"/Users/Vadim/Git/react-course/07-dropdown/src/button.jsx":[function(require,module,exports){
+},{"./dropdown":"/Users/Vadim/Git/react-experiments/07-dropdown/src/dropdown.jsx","react":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/react.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/src/button.jsx":[function(require,module,exports){
 var React = require('react');  // NPM Module
 
 module.exports = React.createClass({displayName: "exports",
-  render: function() {
-    return React.createElement("button", {className: "btn " + this.props.className, type: "button"}, 
+	render: function() {
+    return React.createElement("button", {onClick: this.props.whenClicked, className: "btn " + this.props.className, type: "button"}, 
       this.props.title, "  ",  
 			React.createElement("span", {className: this.props.subTitleClassName}, this.props.subTitle)
     )
   }
 });
 
-},{"react":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/react/react.js"}],"/Users/Vadim/Git/react-course/07-dropdown/src/dropdown.jsx":[function(require,module,exports){
+},{"react":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/react.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/src/dropdown.jsx":[function(require,module,exports){
 var React = require('React');
 var Button = require('./button');
 //var List = require('./list');
 
 module.exports = React.createClass({displayName: "exports",
+	handleClick: function() {
+		alert("hello from the dropdown");
+	},
 	render: function() {
 		
 		return React.createElement("div", {className: "dropdown"}, 
-			React.createElement(Button, {title: this.props.title, className: "btn-default", subTitleClassName: "caret"})
+			React.createElement(Button, {
+				title: this.props.title, 
+				className: "btn-default", 
+				subTitleClassName: "caret", 
+				whenClicked: this.handleClick}
+			)
 		)
 	}
 });
 
-},{"./button":"/Users/Vadim/Git/react-course/07-dropdown/src/button.jsx","React":"/Users/Vadim/Git/react-course/07-dropdown/node_modules/React/react.js"}]},{},["/Users/Vadim/Git/react-course/07-dropdown/src/app.jsx"]);
+},{"./button":"/Users/Vadim/Git/react-experiments/07-dropdown/src/button.jsx","React":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/react.js"}]},{},["/Users/Vadim/Git/react-experiments/07-dropdown/src/app.jsx"]);
