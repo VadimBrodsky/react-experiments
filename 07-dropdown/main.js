@@ -20158,14 +20158,24 @@ module.exports = React.createClass({displayName: "exports",
 	getInitialState: function() {
 		return { open: false }
 	},
+	handleItemClick: function(item) {
+		this.setState({
+			open: false,
+			itemTitle: item	
+		});	
+	},
 	render: function() {
 		var list = this.props.items.map(function(item){
-			return React.createElement(ListItem, {item: item})	
-		});
+			return React.createElement(ListItem, {
+							item: item, 
+							whenItemClicked: this.handleItemClick, 
+							className: this.state.itemTitle === item ? "active" : ""}
+						)	
+		}.bind(this));
 
 		return React.createElement("div", {className: "dropdown"}, 
 			React.createElement(Button, {
-				title: this.props.title, 
+				title: this.state.itemTitle || this.props.title, 
 				className: "btn-default", 
 				subTitleClassName: "caret", 
 				whenClicked: this.handleClick}
@@ -20181,8 +20191,13 @@ module.exports = React.createClass({displayName: "exports",
 var React = require('react');
 
 module.exports = React.createClass({displayName: "exports",
+	handleClick: function() {
+		this.props.whenItemClicked(this.props.item);
+	},
 	render: function() {
-		return React.createElement("li", null, React.createElement("a", null, this.props.item))
+		return React.createElement("li", {className: this.props.className}, 
+			React.createElement("a", {onClick: this.handleClick}, this.props.item)
+		)
 	}
 });
 

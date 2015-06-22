@@ -9,14 +9,24 @@ module.exports = React.createClass({
 	getInitialState: function() {
 		return { open: false }
 	},
+	handleItemClick: function(item) {
+		this.setState({
+			open: false,
+			itemTitle: item	
+		});	
+	},
 	render: function() {
 		var list = this.props.items.map(function(item){
-			return <ListItem item={item} />	
-		});
+			return <ListItem 
+							item={item} 
+							whenItemClicked={this.handleItemClick} 
+							className={this.state.itemTitle === item ? "active" : ""}
+						/>	
+		}.bind(this));
 
 		return <div className="dropdown">
 			<Button 
-				title={this.props.title}  
+				title={this.state.itemTitle || this.props.title}  
 				className="btn-default" 
 				subTitleClassName="caret" 
 				whenClicked={this.handleClick} 
