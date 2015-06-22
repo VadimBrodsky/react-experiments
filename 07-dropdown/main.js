@@ -20149,23 +20149,38 @@ module.exports = React.createClass({displayName: "exports",
 },{"react":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/react.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/src/dropdown.jsx":[function(require,module,exports){
 var React = require('React');
 var Button = require('./button');
-//var List = require('./list');
+var ListItem = require('./list-item');
 
 module.exports = React.createClass({displayName: "exports",
 	handleClick: function() {
 		alert("hello from the dropdown");
 	},
 	render: function() {
-		
+		var list = this.props.items.map(function(item){
+			return React.createElement(ListItem, {item: item})	
+		});
+
 		return React.createElement("div", {className: "dropdown"}, 
 			React.createElement(Button, {
 				title: this.props.title, 
 				className: "btn-default", 
 				subTitleClassName: "caret", 
 				whenClicked: this.handleClick}
+			), 
+			React.createElement("ul", null, 
+				list
 			)
 		)
 	}
 });
 
-},{"./button":"/Users/Vadim/Git/react-experiments/07-dropdown/src/button.jsx","React":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/react.js"}]},{},["/Users/Vadim/Git/react-experiments/07-dropdown/src/app.jsx"]);
+},{"./button":"/Users/Vadim/Git/react-experiments/07-dropdown/src/button.jsx","./list-item":"/Users/Vadim/Git/react-experiments/07-dropdown/src/list-item.jsx","React":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/React/react.js"}],"/Users/Vadim/Git/react-experiments/07-dropdown/src/list-item.jsx":[function(require,module,exports){
+var React = require('react');
+
+module.exports = React.createClass({displayName: "exports",
+	render: function() {
+		return React.createElement("li", null, React.createElement("a", null, this.props.item))
+	}
+});
+
+},{"react":"/Users/Vadim/Git/react-experiments/07-dropdown/node_modules/react/react.js"}]},{},["/Users/Vadim/Git/react-experiments/07-dropdown/src/app.jsx"]);
