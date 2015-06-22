@@ -20244,6 +20244,7 @@ var ReactFireMixin = {
 var React = require('react');
 var ReactFire = require('reactfire');
 var Firebase = require('firebase');
+var Header = require('./header');
 var rootUrl = 'https://amber-heat-8131.firebaseio.com/';
 
 var App = React.createClass({displayName: "App",
@@ -20254,9 +20255,13 @@ var App = React.createClass({displayName: "App",
     this.bindAsObject(new Firebase(rootUrl + 'items/'), 'items');
   },
   render: function() {
-    console.log(this.state);
-    return React.createElement("h1", null, 
-      "Hello!"
+    return React.createElement("div", {className: "row panel panel-default"}, 
+      React.createElement("div", {className: "col-md-8 col-md-offset-2"}, 
+        React.createElement("h2", {className: "text-center"}, 
+          "To-Do List"
+        ), 
+        React.createElement(Header, null)
+      )
     )
   }
 });
@@ -20264,4 +20269,20 @@ var App = React.createClass({displayName: "App",
 var element = React.createElement(App, {});
 React.render(element, document.querySelector('.container'));
 
-},{"firebase":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/firebase/lib/firebase-web.js","react":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/react/react.js","reactfire":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/reactfire/dist/reactfire.js"}]},{},["/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/src/app.jsx"]);
+},{"./header":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/src/header.jsx","firebase":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/firebase/lib/firebase-web.js","react":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/react/react.js","reactfire":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/reactfire/dist/reactfire.js"}],"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/src/header.jsx":[function(require,module,exports){
+var React = require('react');
+
+module.exports = React.createClass({displayName: "exports",
+  render: function() {
+    return React.createElement("div", {className: "input-group"}, 
+      React.createElement("input", {tyle: "text", className: "form-control"}), 
+      React.createElement("span", {className: "input-group-btn"}, 
+        React.createElement("button", {className: "btn btn-default", type: "button"}, 
+          "Add"
+        )
+      )
+    )
+  }
+});
+
+},{"react":"/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/node_modules/react/react.js"}]},{},["/Users/vadimbrodsky/git/vadims-projects/react-experiments/08-todo/src/app.jsx"]);
