@@ -20273,15 +20273,33 @@ React.render(element, document.querySelector('.container'));
 var React = require('react');
 
 module.exports = React.createClass({displayName: "exports",
+  getInitialState: function() {
+    return {
+      text: ''
+    }
+  },
   render: function() {
     return React.createElement("div", {className: "input-group"}, 
-      React.createElement("input", {tyle: "text", className: "form-control"}), 
+      React.createElement("input", {
+        value: this.state.text, 
+        onChange: this.handleInputChange, 
+        type: "text", 
+        className: "form-control"}), 
       React.createElement("span", {className: "input-group-btn"}, 
-        React.createElement("button", {className: "btn btn-default", type: "button"}, 
+        React.createElement("button", {
+          onClick: this.handleClick, 
+          className: "btn btn-default", 
+          type: "button"}, 
           "Add"
         )
       )
     )
+  },
+  handleClick: function() {
+    console.log(this.state.text);
+  },
+  handleInputChange: function(event) {
+    this.setState({text: event.target.value});
   }
 });
 
